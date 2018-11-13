@@ -1,0 +1,96 @@
+/* Body Tag */
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+}
+
+/* Opening Screen */
+
+div#openingScreen{
+    background: white;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+    z-index: 2;
+}
+
+div#openingScreen.hide{
+    display: none;
+}
+
+div#openingScreen h1{
+    color: black;
+    font-family: -apple-system, 'San Francisco', 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+
+div#openingScreen h2{
+    color: black;
+    font-family: -apple-system, 'San Francisco', 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Quiz Styling */
+
+div#quizArea{
+    background: white;
+    border: black solid 1px;
+    display: block;
+    left: 0;
+    margin: auto;
+    min-height: 80%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 49.4%;
+    z-index: 1;
+}
+
+div#quizArea h1{
+    color: black;
+    font-family: -apple-system, 'San Francisco', 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+
+div#quizArea h2{
+    color: black;
+    font-family: -apple-system, 'San Francisco', 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: left;
+    margin: 0 20px;
+}
+
+div#quizArea div.answerContainer{
+    margin: 0 20px;
+}
+
+div#quizArea div.answerContainer label{
+    display: block;
+    font-family: -apple-system, 'San Francisco', 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
