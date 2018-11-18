@@ -22,7 +22,7 @@ $(document).ready(function() {
     $("#openingScreen").on("click", function() {
         $(this).css("display","none");
         $('body').css("overflow-y","auto");
-        $("#timeBox").css("display","block");
+        $("#timeBox").css("display","flex");
 
         // Defined functions for timer
         function quizTimer() {
@@ -90,7 +90,7 @@ $(document).ready(function() {
         
         // The final score page is shown
         $("#quizArea").css("display","none");
-        $("#scorePage").css("display","block");
+        $("#scorePage").css("display","flex");
         $("#answerCredit").html(totalScore + " out of 10 correct!");
     });
 });
